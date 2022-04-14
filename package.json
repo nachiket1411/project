@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.1.0",
+  "description": "this is backend of my final project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-router": "^0.0.1",
+    "express-validator": "^6.14.0",
+    "mongoose": "^6.2.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
